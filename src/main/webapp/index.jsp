@@ -1,7 +1,13 @@
-<%@ page language="java" pageEncoding="UTF-8" contentType="text/html; charset=UTF-8" import="java.io.*"%>
+<%@ page language="java" pageEncoding="UTF-8" contentType="text/html; charset=UTF-8" import="java.io.*" errorPage=""%>
+<%@ page import="index.action.*" %>
+<%
+IndexAction hellow = new IndexAction();
+syso();
+%>
 <!DOCTYPE html>
 <body>
 <h2>Hello World!</h2>
+<input type="button" value="willcome" src="" />
 </body>
 </html>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"> </script>
